@@ -1,4 +1,5 @@
 var express = require("express");
+var cors=require("cors");
 
 var app = express();
 
@@ -24,6 +25,8 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static("./public"));
+
+app.use(cors());
 
 app.get("/dictionary-api",function(req,res){
 	res.json(skierTerms);
