@@ -1,8 +1,11 @@
+/** Requiring express and cors */
 var express = require("express");
 var cors=require("cors");
 
+
 var app = express();
 
+/** The skier terms */
 var skierTerms = [
     {
         term: "Rip",
@@ -19,6 +22,7 @@ var skierTerms = [
 ];
 
 
+/** Checking the request */
 app.use(function(req, res, next) {
 	console.log(`${req.method} request for '${req.url}'`);
 	next();
