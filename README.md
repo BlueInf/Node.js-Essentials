@@ -17,3 +17,5 @@ This repository starts off by defining how Node.js works with this event driven,
 
 [05. Web Servers](https://github.com/BlueInf/Node.js-Essentials/tree/master/Web%20Servers)
 
+[06. Web Sockets](https://github.com/BlueInf/Node.js-Essentials/tree/master/Web%20Sockets)
+
