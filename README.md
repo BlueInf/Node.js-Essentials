@@ -19,3 +19,7 @@ This repository starts off by defining how Node.js works with this event driven,
 
 [06. Web Sockets](https://github.com/BlueInf/Node.js-Essentials/tree/master/Web%20Sockets)
 
+[07. RESTful ToDo API](https://github.com/BlueInf/Node.js-Essentials/tree/master/ToDo%20App)
+
+[08. RESTful ToDO API with Authorization](https://github.com/BlueInf/Node.js-Essentials/tree/master/ToDo_RestFul_Auth) 
+
